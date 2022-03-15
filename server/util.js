@@ -1,13 +1,14 @@
-// import pino from "pino";
+import pino from "pino"
 
-// const log = pino({
-//   enabled: !!!process.env.LOG_DISABLED,
-//   transport: {
-//     target: "pino-pretty",
-//     options: {
-//       colorize: true,
-//     },
-//   },
-// });
+const log = pino({
+   enabled: !!!process.env.LOG_DISABLED,
+   transport: {
+     target: "pino-pretty",
+     options: {
+       colorize: true,
+     },
+   },
+ });
 
-// export const logger = log;
+export const logger = log
+

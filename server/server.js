@@ -1,9 +1,9 @@
 import { 
     createServer 
-} from "http";
+} from "http"
 
 import { 
     handler 
-} from "./routes.js";
+} from "./routes.js"
 
-export default createServer(handler);
+export default createServer(handler)

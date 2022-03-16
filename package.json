@@ -15,7 +15,7 @@
     "node": "17"
   },
   "keywords": [],
-  "author": "elvis7t",
+  "author": "erickwendel",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1",

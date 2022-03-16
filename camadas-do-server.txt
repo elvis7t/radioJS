@@ -5,3 +5,16 @@ server
     server = criar o servidor (nao instancia)
     index = instanciar o servidor
     config = tudo que for estático
+
+    npm ci --silent
+    npm install pino@7.8.0 pino-pretty@7.5.3
+    curl localhost:3000
+    curl -i localhost:3000
+
+    Teste
+    npm i -D jest@27 
+    npx jest --init
+
+    npm test
+    npm run test:watch
+    npm run test:coverage
